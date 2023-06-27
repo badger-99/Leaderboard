@@ -18,6 +18,11 @@ main{
   gap: 3rem;
   margin: 12.5rem auto 0;
 }
+#score-list{
+  border: 2px solid black;
+  width: 100%;
+  min-width: 15rem;
+}
 }
 
 #form {
