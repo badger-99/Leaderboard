@@ -3,3 +3,9 @@
   font-family: 'MyFont', sans-serif;
   src: url('./my-font.ttf') format('ttf');
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
