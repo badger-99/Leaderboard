@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Development</title>
-<script defer src="index.bundle.js"></script></head>
+  <title>Leaderboard</title>
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
 <body>
-  <h1>hello there!</h1>
+  <main>
+    <section id="left-col">
+      <div id="heading">
+        <h1>Leaderboard</h1>
+      </div>
+      <div id="scores">
+        <div id="title">
+          <h3>recent scores</h3>
+          <button type="button" id="refresh">Refresh</button>
+        </div>
+        <div id="scorelist"></div>
+      </div>
+    </section>
+    <section id="right-col">
+      <div id="form-title">Add your score</div>
+      <form action="">
+        <input type="text" id="name" placeholder="Your name">
+        <input type="text" id="score" placeholder="Your score">
+      </form>
+      <button type="submit" id="submit">submit</button>
+    </section>
+  </main>
 </body>
 </html>
