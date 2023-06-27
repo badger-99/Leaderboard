@@ -9,3 +9,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+  border: 3px solid green;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  width: fit-content;
+  margin: 10rem auto 0;
+}
