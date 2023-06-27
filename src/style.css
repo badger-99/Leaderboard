@@ -23,6 +23,13 @@ main{
   width: 100%;
   min-width: 15rem;
 }
+
+.score{
+  padding: 0.1rem 0.2rem;
+}
+
+.score:nth-child(even){
+  background: rgb(210, 210, 210);
 }
 
 #form {
