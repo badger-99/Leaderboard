@@ -31,6 +31,11 @@ main{
   margin-bottom: 0.75rem;
   justify-content: center;
 }
+
+#scores{
+  margin-left: 2rem;
+}
+
 #score-list{
   border: 2px solid black;
   width: 100%;
