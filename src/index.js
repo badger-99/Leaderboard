@@ -23,7 +23,6 @@ form.addEventListener('click', (e) => {
       body: JSON.stringify(packageObj),
     })
       .then((result) => result.json())
-    .catch((error) => console.log(error));
   }
 });
 
