@@ -12,4 +12,10 @@ form.addEventListener('click', (e) => {
     const user = document.getElementById('user');
     const score = document.getElementById('score');
     console.log(`${user.value}, so far so good. Your score is ${score.value}`);
+
+    const packageObj = {
+      score: score.value,
+      user: user.value,
+    };
+
 });
