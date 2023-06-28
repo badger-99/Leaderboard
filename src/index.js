@@ -35,4 +35,12 @@ form.addEventListener('click', (e) => {
 refresh.addEventListener('click', async () => {
   const leaderboard = await fetch(url, { method: 'GET' });
   const data = await leaderboard.json();
+
+  scoreList.innerHTML = '';
+  data.result.forEach((element) => {
+    const p = document.createElement('p');
+    p.className = 'score';
+    p.innerHTML = `${element.user}: ${element.score}`;
+    scoreList.appendChild(p);
+  });
 });
