@@ -29,5 +29,5 @@ form.addEventListener('click', (e) => {
       // .then((data) => {console.log('Data', data);})
       .catch((error) => console.log(error));
   }
-});
+  form.reset();
 });
