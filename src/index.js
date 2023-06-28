@@ -25,7 +25,6 @@ form.addEventListener('click', (e) => {
       .then((result) => result.json())
     .catch((error) => console.log(error));
   }
-  form.reset();
 });
 
 refresh.addEventListener('click', async () => {
