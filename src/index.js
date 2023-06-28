@@ -31,3 +31,6 @@ form.addEventListener('click', (e) => {
   }
   form.reset();
 });
+
+refresh.addEventListener('click', async () => {
+});
