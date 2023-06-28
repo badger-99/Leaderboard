@@ -9,4 +9,7 @@ const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 form.addEventListener('click', (e) => {
   if (e.target.id === 'submit') {
     e.preventDefault();
+    const user = document.getElementById('user');
+    const score = document.getElementById('score');
+    console.log(`${user.value}, so far so good. Your score is ${score.value}`);
 });
