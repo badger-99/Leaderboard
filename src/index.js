@@ -18,4 +18,16 @@ form.addEventListener('click', (e) => {
       user: user.value,
     };
 
+    fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(packageObj),
+    })
+      .then((result) => {
+        return result.json();
+      })
+      // .then((data) => {console.log('Data', data);})
+      .catch((error) => console.log(error));
+  }
+});
 });
