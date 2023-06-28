@@ -42,7 +42,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[None at this moment]**
+- **[Uses Leaderboard API to keep track of the scores]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +112,6 @@ Or you can use the dev server. To initiate it, run `npm build run` in your cli a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Intergrating the Leaderboard API]**
 - [ ] **[Better styling]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
