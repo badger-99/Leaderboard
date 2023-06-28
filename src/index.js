@@ -33,4 +33,6 @@ form.addEventListener('click', (e) => {
 });
 
 refresh.addEventListener('click', async () => {
+  const leaderboard = await fetch(url, { method: 'GET' });
+  const data = await leaderboard.json();
 });
