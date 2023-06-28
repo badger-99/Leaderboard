@@ -22,7 +22,7 @@ form.addEventListener('click', (e) => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(packageObj),
     })
-      .then((result) => result.json())
+      .then((result) => result.json());
   }
 });
 
