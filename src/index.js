@@ -11,7 +11,6 @@ form.addEventListener('click', (e) => {
     e.preventDefault();
     const user = document.getElementById('user');
     const score = document.getElementById('score');
-    console.log(`${user.value}, so far so good. Your score is ${score.value}`);
 
     const packageObj = {
       score: score.value,
@@ -23,11 +22,8 @@ form.addEventListener('click', (e) => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(packageObj),
     })
-      .then((result) => {
-        return result.json();
-      })
-      // .then((data) => {console.log('Data', data);})
-      .catch((error) => console.log(error));
+      .then((result) => result.json())
+    .catch((error) => console.log(error));
   }
   form.reset();
 });
