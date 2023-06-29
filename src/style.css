@@ -15,8 +15,9 @@ button {
 }
 
 main {
+  border: 2px solid green;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
@@ -25,6 +26,13 @@ main {
 
 #heading {
   margin: 0.5rem 1rem 1rem 0;
+}
+
+#board{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
 }
 
 #title {
@@ -44,6 +52,7 @@ main {
   border: 2px solid black;
   width: 100%;
   min-width: 15rem;
+  min-height: 10rem;
 }
 
 .score {
