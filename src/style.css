@@ -20,6 +20,8 @@ button {
   border: none;
   border-radius: 2px;
   padding: 0.2rem;
+  background: #480148;
+  color: #ffd700;
 }
 
 button:hover{
