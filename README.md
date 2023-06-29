@@ -112,7 +112,7 @@ Or you can use the dev server. To initiate it, run `npm build run` in your cli a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Better styling]**
+- [ ] **[Mobile deign]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
