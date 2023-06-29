@@ -30,6 +30,7 @@ main {
   width: 48rem;
   padding: 3rem 0;
   background: #800080;
+  box-shadow: 0rem 0rem 3.2rem 3.75rem rgba(116,0,116,0.75);
 }
 
 #heading {
