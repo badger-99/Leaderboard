@@ -103,3 +103,8 @@ h3 {
   margin: 0.75rem 0;
   align-items: flex-end;
 }
+
+input{
+  border: none;
+  padding: 0.2rem;
+}
