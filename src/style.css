@@ -16,7 +16,6 @@ body {
 }
 
 button {
-  padding: 0 0.2rem;
   border: none;
   border-radius: 2px;
   padding: 0.2rem;
@@ -40,11 +39,11 @@ main {
   width: 48rem;
   padding: 3rem 0;
   background: #800080;
-  box-shadow: 0rem 0rem 3.2rem 3.75rem rgba(100, 0, 100, 0.75);
+  box-shadow: 0 0 3.2rem 3.75rem rgba(100, 0, 100, 0.75);
 }
 
 #heading {
-  margin: 0rem 1rem 1rem 3rem;
+  margin: 0 1rem 1rem 3rem;
   align-self: flex-start;
   color: #cabd73;
   letter-spacing: 0.12rem;
@@ -53,12 +52,22 @@ main {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #b800b8,
-      0 0 40px #b800b8, 0 0 50px #b800b8, 0 0 60px #b800b8, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #ffd700,
+    0 0 20px #ffd700,
+    0 0 30px #b800b8,
+    0 0 40px #b800b8,
+    0 0 50px #b800b8,
+    0 0 60px #b800b8,
+    0 0 70px #e60073;
   }
   to {
-    text-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ff4da6,
-      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #ffd700,
+    0 0 30px #ffd700,
+    0 0 40px #ff4da6,
+    0 0 50px #ff4da6,
+    0 0 60px #ff4da6,
+    0 0 70px #ff4da6,
+    0 0 80px #ff4da6;
   }
 }
 
