@@ -16,13 +16,13 @@ button {
 }
 
 main {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  margin: 12.5rem auto 0;
+  margin: 7rem auto 0;
   width: 48rem;
   padding: 3rem 0;
 }
