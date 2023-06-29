@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leaderboard</title>
-</head>
-<body>
-  <main>
-    <section id="left-col">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+  </head>
+
+  <body>
+    <main>
       <div id="heading">
         <h1>Leaderboard</h1>
       </div>
-      <div id="scores">
-        <div id="title">
-          <h3>Recent scores</h3>
-          <button type="button" id="refresh">Refresh</button>
-        </div>
-        <div id="score-list">
-        </div>
+
+      <div id="board">
+        <section id="left-col">
+
+          <div id="scores">
+            <div id="title">
+              <h3>Recent scores</h3>
+              <button type="button" id="refresh">Refresh</button>
+            </div>
+            <div id="score-list">
+            </div>
+          </div>
+        </section>
+
+        <section id="right-col">
+          <h3 id="form-title">Add your score</h3>
+          <form action="" id="form">
+            <input type="text" id="user" name="user" placeholder="Your name">
+            <input type="text" id="score" name="score" placeholder="Your score">
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        </section>
       </div>
-    </section>
-    <section id="right-col">
-      <h3 id="form-title">Add your score</div>
-      <form action="" id="form">
-        <input type="text" id="user" name="user" placeholder="Your name">
-        <input type="text" id="score" name="score" placeholder="Your score">
-        <button type="submit" id="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-</body>
+    </main>
+  </body>
+
 </html>
