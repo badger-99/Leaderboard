@@ -21,8 +21,9 @@ main {
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  margin: 12.5rem auto 0;
+  margin: 10rem auto 0;
   width: 48rem;
+  padding: 3rem 0;
 }
 
 #heading {
