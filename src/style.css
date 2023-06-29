@@ -8,50 +8,119 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'MyFont', sans-serif;
+}
+
+body {
+  background: #1b001b;
 }
 
 button {
-  padding: 0 0.2rem;
+  border: none;
+  border-radius: 2px;
+  padding: 0.2rem;
+  background: #480148;
+  color: #ffd700;
+  box-shadow: 0 0 2.5px #ffd700;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 main {
+  /* border: 2px solid green; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 0.75rem;
   margin: 12.5rem auto 0;
+  width: 48rem;
+  padding: 3rem 0;
+  background: #800080;
+  box-shadow: 0 0 3.2rem 3.75rem rgba(100, 0, 100, 0.75);
 }
 
 #heading {
-  margin: 0.5rem 1rem 1rem 0;
+  margin: 0 1rem 1rem 3rem;
+  align-self: flex-start;
+  color: #cabd73;
+  letter-spacing: 0.12rem;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow:
+      0 0 10px #ffd700,
+      0 0 20px #ffd700,
+      0 0 30px #b800b8,
+      0 0 40px #b800b8,
+      0 0 50px #b800b8,
+      0 0 60px #b800b8,
+      0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow:
+      0 0 20px #ffd700,
+      0 0 30px #ffd700,
+      0 0 40px #ff4da6,
+      0 0 50px #ff4da6,
+      0 0 60px #ff4da6,
+      0 0 70px #ff4da6,
+      0 0 80px #ff4da6;
+  }
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #d3b302;
+  text-shadow: 0 0 10px #ffd700;
+}
+
+#board {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
 }
 
 #title {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-bottom: 0.75rem;
   justify-content: center;
 }
 
-#scores {
+/* #scores {
   margin-left: 2rem;
-}
+  border: 2px solid black;
+} */
 
 #score-list {
-  border: 2px solid black;
+  /* border: 1px solid #ffd700; */
   width: 100%;
   min-width: 15rem;
+  height: 10.71rem;
+  overflow-y: auto;
+  box-shadow: 0 0 30px #ffd700;
+  border-radius: 10px;
 }
 
 .score {
-  padding: 0.1rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+  background: #7e057e;
+  color: rgb(183, 182, 182);
 }
 
-.score:nth-child(even) {
-  background: rgb(210, 210, 210);
+.score:nth-child(even),
+input {
+  background: #b3a34b;
+  color: black;
 }
 
 #form {
@@ -60,4 +129,10 @@ main {
   gap: 0.75rem;
   margin: 0.75rem 0;
   align-items: flex-end;
+}
+
+input {
+  border: none;
+  padding: 0.2rem;
+  box-shadow: 0 0 7.5px #ffd700;
 }

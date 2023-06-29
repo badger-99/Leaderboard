@@ -30,5 +30,10 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "overrides": {
+    "@hint/utils-network": {
+      "node-fetch": "^2"
+    }
   }
 }
