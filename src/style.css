@@ -27,7 +27,7 @@ main {
 }
 
 #heading {
-  margin: 1rem 1rem 1rem 3rem;
+  margin: 0rem 1rem 1rem 3rem;
   border: 2px solid black;
   align-self: flex-start;
 }
