@@ -89,10 +89,11 @@ h3 {
 
 .score {
   padding: 0.1rem 0.2rem;
+  background: #ff1fff;
 }
 
-.score:nth-child(even) {
-  background: rgb(210, 210, 210);
+.score:nth-child(even), input {
+  background: #cabd73;
 }
 
 #form {
