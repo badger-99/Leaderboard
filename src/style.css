@@ -22,10 +22,10 @@ button {
   padding: 0.2rem;
   background: #480148;
   color: #ffd700;
-  box-shadow:  0 0 2.5px #ffd700;
+  box-shadow: 0 0 2.5px #ffd700;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ h3 {
   min-width: 15rem;
   height: 9.28rem;
   overflow-y: auto;
-  box-shadow:  0 0 30px #ffd700;
+  box-shadow: 0 0 30px #ffd700;
 }
 
 .score {
@@ -104,7 +104,8 @@ h3 {
   color: rgb(183, 182, 182);
 }
 
-.score:nth-child(even), input {
+.score:nth-child(even),
+input {
   background: #b3a34b;
   color: black;
 }
@@ -117,8 +118,8 @@ h3 {
   align-items: flex-end;
 }
 
-input{
+input {
   border: none;
   padding: 0.2rem;
-  box-shadow:  0 0 7.5px #ffd700;
+  box-shadow: 0 0 7.5px #ffd700;
 }
