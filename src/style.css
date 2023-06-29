@@ -52,7 +52,7 @@ main {
 
 @keyframes glow {
   from {
-    text-shadow: 
+    text-shadow:
       0 0 10px #ffd700,
       0 0 20px #ffd700,
       0 0 30px #b800b8,
@@ -61,6 +61,7 @@ main {
       0 0 60px #b800b8,
       0 0 70px #e60073;
   }
+  
   to {
     text-shadow:
       0 0 20px #ffd700,
