@@ -93,13 +93,14 @@ h3 {
   /* border: 1px solid #ffd700; */
   width: 100%;
   min-width: 15rem;
-  height: 9.28rem;
+  height: 10.71rem;
   overflow-y: auto;
   box-shadow: 0 0 30px #ffd700;
+  border-radius: 10px;
 }
 
 .score {
-  padding: 0.1rem 0.2rem;
+  padding: 0.2rem 0.5rem;
   background: #7e057e;
   color: rgb(183, 182, 182);
 }
