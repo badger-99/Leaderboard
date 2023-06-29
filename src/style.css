@@ -11,6 +11,10 @@
   font-family: 'MyFont', sans-serif;
 }
 
+body {
+  background: #3d003d;
+}
+
 button {
   padding: 0 0.2rem;
 }
@@ -33,11 +37,11 @@ main {
   align-self: flex-start;
 }
 
-h3{
+h3 {
   font-size: 1.3rem;
 }
 
-#board{
+#board {
   /* border: 2px solid black; */
   display: flex;
   flex-direction: row;
