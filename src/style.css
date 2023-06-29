@@ -28,12 +28,16 @@ main {
 
 #heading {
   margin: 0rem 1rem 1rem 3rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   align-self: flex-start;
 }
 
+h3{
+  font-size: 1.3rem;
+}
+
 #board{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: row;
   gap: 3rem;
