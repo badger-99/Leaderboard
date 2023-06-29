@@ -80,10 +80,10 @@ h3 {
 } */
 
 #score-list {
-  border: 2px solid #837524;
+  border: 1px solid black;
   width: 100%;
   min-width: 15rem;
-  height: 9.45rem;
+  height: 9.28rem;
   overflow-y: auto;
 }
 
